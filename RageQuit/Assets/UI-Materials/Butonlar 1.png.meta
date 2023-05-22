@@ -1,0 +1,590 @@
+fileFormatVersion: 2
+guid: 425541f414588ba4aa21452137fbce18
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3080219249777207868
+    second: Butonlar 1_0
+  - first:
+      213: -636664821867295660
+    second: Butonlar 1_1
+  - first:
+      213: 2242858644713280175
+    second: Butonlar 1_2
+  - first:
+      213: 8344147457276808341
+    second: Butonlar 1_3
+  - first:
+      213: -5625872440129711213
+    second: Butonlar 1_4
+  - first:
+      213: -5178822799426297367
+    second: Butonlar 1_5
+  - first:
+      213: 2086531387965439338
+    second: Butonlar 1_6
+  - first:
+      213: 1261044884172562080
+    second: Butonlar 1_7
+  - first:
+      213: -2049389913569832968
+    second: Butonlar 1_8
+  - first:
+      213: 1202057902662867511
+    second: Butonlar 1_9
+  - first:
+      213: 8875431723708443331
+    second: Butonlar 1_10
+  - first:
+      213: -458124683330575615
+    second: Butonlar 1_11
+  - first:
+      213: 6776797377048362628
+    second: Butonlar 1_12
+  - first:
+      213: 6466004539595668290
+    second: Butonlar 1_13
+  - first:
+      213: -2136113672059792495
+    second: Butonlar 1_14
+  - first:
+      213: -8325935688977017804
+    second: Butonlar 1_15
+  - first:
+      213: 6532472106904739085
+    second: Butonlar 1_16
+  - first:
+      213: 7256881934663229291
+    second: Butonlar 1_17
+  - first:
+      213: 2095706501753981861
+    second: Butonlar 1_18
+  - first:
+      213: -6658631693316070888
+    second: Butonlar 1_19
+  - first:
+      213: 6651370060727856432
+    second: Butonlar 1_20
+  - first:
+      213: -2317122928001925634
+    second: Butonlar 1_21
+  - first:
+      213: 8904983936141110425
+    second: Butonlar 1_22
+  - first:
+      213: -6996325828292638872
+    second: Butonlar 1_23
+  - first:
+      213: 5390436703234630030
+    second: Butonlar 1_24
+  - first:
+      213: 6989551457598976982
+    second: Butonlar 1_25
+  - first:
+      213: 357505612835287971
+    second: Butonlar 1_26
+  - first:
+      213: -3072149331523184961
+    second: Butonlar 1_27
+  - first:
+      213: -2382693645520558107
+    second: Butonlar 1_28
+  - first:
+      213: -3798811617798864462
+    second: Butonlar 1_29
+  - first:
+      213: -5946930386244314982
+    second: Butonlar 1_30
+  - first:
+      213: 1297658017637243509
+    second: Butonlar 1_31
+  - first:
+      213: -7302032595235037642
+    second: Butonlar 1_32
+  - first:
+      213: 7323467189041089400
+    second: Butonlar 1_33
+  - first:
+      213: 8118430995881912421
+    second: Butonlar 1_34
+  - first:
+      213: 2551673456173492437
+    second: Butonlar 1_35
+  - first:
+      213: -3067073252045702466
+    second: Butonlar 1_36
+  - first:
+      213: 6729650153694245210
+    second: Butonlar 1_37
+  - first:
+      213: 3579893461631402831
+    second: Butonlar 1_38
+  - first:
+      213: -2965489581629732106
+    second: Butonlar 1_39
+  - first:
+      213: 773967101247412585
+    second: Butonlar 1_40
+  - first:
+      213: 8604887745621052363
+    second: Butonlar 1_41
+  - first:
+      213: -1701933568881324924
+    second: Butonlar 1_42
+  - first:
+      213: -8455525052320086906
+    second: Butonlar 1_43
+  - first:
+      213: 1788128406820970469
+    second: Butonlar 1_44
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Butonlar 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c595ba79ecd045d0800000000000000
+      internalID: -3080219249777207868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Butonlar 1_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ccc9bb7bc1a27f0800000000000000
+      internalID: -636664821867295660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Butonlar 1_2
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 128
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa29c8fdd0c302f10800000000000000
+      internalID: 2242858644713280175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Butonlar 1_3
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 128
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c867837ed5cc370800000000000000
+      internalID: 8344147457276808341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Butonlar 1_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3939866a2d2ece1b0800000000000000
+      internalID: -5625872440129711213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Butonlar 1_5
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1608d3a102128b0800000000000000
+      internalID: -5178822799426297367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Butonlar 1_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6df1601e39d4fc10800000000000000
+      internalID: 2086531387965439338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Butonlar 1_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aeddee04a1208110800000000000000
+      internalID: 1261044884172562080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Butonlar 1_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 80
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ffc6635bba1f83e0800000000000000
+      internalID: -2049389913569832968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Butonlar 1_9
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 64
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73adbaf2b419ea010800000000000000
+      internalID: 1202057902662867511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Butonlar 1_10
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 64
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3caefdfe02edb2b70800000000000000
+      internalID: 8875431723708443331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Butonlar 1_11
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1032e3b170a64a9f0800000000000000
+      internalID: -458124683330575615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Butonlar 1_12
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 32
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e34c53f450c0e50800000000000000
+      internalID: 6776797377048362628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Butonlar 1_13
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24bb9a2dedcdbb950800000000000000
+      internalID: 6466004539595668290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Butonlar 1_0: -3080219249777207868
+      Butonlar 1_1: -636664821867295660
+      Butonlar 1_10: 8875431723708443331
+      Butonlar 1_11: -458124683330575615
+      Butonlar 1_12: 6776797377048362628
+      Butonlar 1_13: 6466004539595668290
+      Butonlar 1_2: 2242858644713280175
+      Butonlar 1_3: 8344147457276808341
+      Butonlar 1_4: -5625872440129711213
+      Butonlar 1_5: -5178822799426297367
+      Butonlar 1_6: 2086531387965439338
+      Butonlar 1_7: 1261044884172562080
+      Butonlar 1_8: -2049389913569832968
+      Butonlar 1_9: 1202057902662867511
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
