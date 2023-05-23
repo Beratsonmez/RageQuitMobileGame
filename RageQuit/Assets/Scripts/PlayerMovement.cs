@@ -168,6 +168,8 @@ public class PlayerMovement : MonoBehaviour
             rb.velocity = new Vector2(movementSpeed * inputDirection, rb.velocity.y);
         }
 
+        //Moving platform için isOnPlatform sorgunusu eklediðinde canMove && !isOnPlatform olarak sorgulatmayý dene
+
 
         if (isWallSliding) // Karakter duvarda kayýyosa karakterin y eksenindeki hýzýný belirlediðimiz kayma hýzýna düþürüyo
         {
