@@ -33,7 +33,7 @@ public class UiManager : MonoBehaviour
 
     public void MainMenu()
     {
-        SceneManager.LoadScene("MainMenu");//Tuþa Basýldýgý zaman "" içindeki Scene Dönmesi için
+        SceneManager.LoadScene(0);//Tuþa Basýldýgý zaman "" içindeki Scene Dönmesi için
         Time.timeScale = 1;
     }
 
