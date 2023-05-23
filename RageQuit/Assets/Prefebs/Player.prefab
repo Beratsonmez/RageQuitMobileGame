@@ -190,6 +190,8 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 128
+  isOnPlatform: 0
+  platformRb: {fileID: 0}
 --- !u!1 &3907258651511627834
 GameObject:
   m_ObjectHideFlags: 0
