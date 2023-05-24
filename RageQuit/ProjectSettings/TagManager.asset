@@ -41,3 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: KaybolanPlatformParticles
+    uniqueID: 3585122813
+    locked: 0
+  - name: KaybolanPlatform
+    uniqueID: 3791760511
+    locked: 0
