@@ -4,36 +4,48 @@ using UnityEngine;
 
 public class KaybolanPlatform : MonoBehaviour
 {
-    private SpriteRenderer spriteRenderer;
-    private ParticleSystem particleSystem;
-    private bool isDisappearing;
+    public float disappearTime = 5f; // Platformun kaybolma süresi
+    public float repairTime = 2f;
+    private bool isDisappearing = false; // Platformun kaybolma durumu
+    private float timer = 0f; // Zamanlayýcý
 
-    public float kaybolmaSuresi = 2f; // Kaybolma süresi
-    public float tekrarGelmeSuresi = 2f; // Geri gelme süresi
-
-    void Start()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        spriteRenderer = GetComponent<SpriteRenderer>();
-        particleSystem = GetComponent<ParticleSystem>();
-        isDisappearing = false;
-        InvokeRepeating("ToggleDisappear", kaybolmaSuresi, kaybolmaSuresi + tekrarGelmeSuresi);
+        if (collision.CompareTag("Player")) // Eðer oyuncu platforma temas ederse
+        {
+            isDisappearing = true; // Platformu kaybolma durumuna getir
+            timer = 0f; // Zamanlayýcýyý sýfýrla
+        }
     }
 
-    void ToggleDisappear()
+    private void Update()
     {
-        isDisappearing = !isDisappearing;
-
         if (isDisappearing)
         {
-            spriteRenderer.enabled = false;
-            particleSystem.Stop(); // Particle System'ý durdur
-            GetComponent<BoxCollider2D>().enabled = false;
+            timer += Time.deltaTime; // Zamanlayýcýyý güncelle
+
+            if (timer >= disappearTime)
+            {
+                // Belirtilen süre kadar zaman geçtiðinde
+                isDisappearing = false; // Kaybolma durumunu sýfýrla
+                timer = 0f; // Zamanlayýcýyý sýfýrla
+                gameObject.SetActive(false); // Platformu devre dýþý býrak
+                Invoke("ReappearPlatform", repairTime); // 2 saniye sonra platformun geri gelmesini tetikle
+            }
         }
-        else
+    }
+
+    private void ReappearPlatform()
+    {
+        gameObject.SetActive(true); // Platformu tekrar etkinleþtir
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("Player")) // Eðer oyuncu platforma temas ederse
         {
-            spriteRenderer.enabled = true;
-            particleSystem.Play(); // Particle System'ý baþlat
-            GetComponent<BoxCollider2D>().enabled = true;
+            isDisappearing = true; // Platformu kaybolma durumuna getir
+            timer = 0f; // Zamanlayýcýyý sýfýrla
         }
     }
 }
