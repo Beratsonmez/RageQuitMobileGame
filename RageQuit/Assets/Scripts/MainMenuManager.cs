@@ -33,4 +33,14 @@ public class MainMenuManager : MonoBehaviour
         Application.Quit();
     }
 
+    public void ÝnfoScene()
+    {
+        SceneManager.LoadScene("ÝnfoUrl");//Start tuþuna basýldýðý zaman parantez içirisindeki Scene götürücek bizi yaný oyuna.
+    }
+
+    public void TurnMainMenu()
+    {
+        SceneManager.LoadScene(0);//Start tuþuna basýldýðý zaman parantez içirisindeki Scene götürücek bizi yaný oyuna.
+    }
+
 }
