@@ -47,3 +47,6 @@ TagManager:
   - name: KaybolanPlatform
     uniqueID: 3791760511
     locked: 0
+  - name: UIinfo
+    uniqueID: 698565085
+    locked: 0
