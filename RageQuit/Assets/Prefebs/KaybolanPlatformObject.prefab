@@ -100,8 +100,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f389fdd0128d7c4d9b5e36e85da9986, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kaybolmaSuresi: 2
-  tekrarGelmeSuresi: 2
+  disappearTime: 2
+  repairTime: 2
 --- !u!61 &7755065530620048303
 BoxCollider2D:
   m_ObjectHideFlags: 0

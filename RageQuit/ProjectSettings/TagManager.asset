@@ -13,7 +13,7 @@ TagManager:
   - UI
   - 
   - Ground
-  - 
+  - Props
   - 
   - 
   - 
@@ -41,6 +41,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Props
+    uniqueID: 1388200475
+    locked: 0
+  - name: Ground
+    uniqueID: 2516394381
+    locked: 0
   - name: KaybolanPlatformParticles
     uniqueID: 3585122813
     locked: 0
@@ -49,4 +55,7 @@ TagManager:
     locked: 0
   - name: UIinfo
     uniqueID: 698565085
+    locked: 0
+  - name: Player
+    uniqueID: 2243477249
     locked: 0
