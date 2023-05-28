@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement; //Ekleme.
+using UnityEngine.Audio;
 
 public class UiManager : MonoBehaviour
 {
 
     public GameObject PausePanel;
-
+    public AudioSource clip;
     void Start()
     {
         
@@ -42,5 +43,10 @@ public class UiManager : MonoBehaviour
         Application.Quit();//Bunuda açýklamýyým aq.
     }
 
+    public void ButtonSound()
+    {
+        clip.Play();
+
+    }
     
 }
