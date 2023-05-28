@@ -32,7 +32,7 @@ public class PlayerMovement : MonoBehaviour
 
     private bool canNormalJump; //Normal jump yapabilip yapamicaðýna göre true yada false göndericek
     private bool isAttemptingToJump; //Karakterin gecikme sonucu zýplamaya hazýr olup olmadýðýný göstericek bir týk bunny yapmasýný engelliyomuþ gibi düþün
-    private bool checkJumpMultiplier; // Çarpanýn kontrol edilmesi gerekip gerekmediðini döndürücek
+   // private bool checkJumpMultiplier; // Çarpanýn kontrol edilmesi gerekip gerekmediðini döndürücek
 
     private float turnTimer; // Dönüþ zamanýný tutucak
     private float jumpTimer; // Son zýplama zamanýný tutucak
@@ -147,14 +147,14 @@ public class PlayerMovement : MonoBehaviour
             }
     }
 
-    public void VeriableJump()
-    {
-        if (checkJumpMultiplier) // Space ten eli çektiðimizde çarpanla o anki yükseklik hýzýmýzý çarpýp ayarlanabilir bir zýplama yüksekliði elde etmemizi saðlýyo
-        {
-            checkJumpMultiplier = false;
-            rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * veriableJumpMultiplier);
-        }
-    }
+    //public void VeriableJump()
+    //{
+    //    if (checkJumpMultiplier) // Space ten eli çektiðimizde çarpanla o anki yükseklik hýzýmýzý çarpýp ayarlanabilir bir zýplama yüksekliði elde etmemizi saðlýyo
+    //    {
+    //        checkJumpMultiplier = false;
+    //        rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * veriableJumpMultiplier);
+    //    }
+    //}
 
     private void ApplyMovement()
     {
@@ -187,7 +187,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (isTouchingWall) // Eðer duvara deyiyorsa zýplama çarpanýný devre dýþý býrakýp wallJump yapabilir hale getiricek
         {
-            checkJumpMultiplier = false;
+            //checkJumpMultiplier = false;
             canWallJump = true;
         }
 
@@ -251,7 +251,7 @@ public class PlayerMovement : MonoBehaviour
             numberOfJumpsLeft--; //zýplama hakkýný eksilt
             jumpTimer = 0; // Tekrar zýplaya bilmek için zýplama gecikmesini sýfýrla
             isAttemptingToJump = false; // Zýplamaya hazýrlýk evresini tamamlat
-            checkJumpMultiplier = true; // Ayarlana bilir zýplama çarpanýný kontrol edilebilmesi için true yap
+           //checkJumpMultiplier = true; // Ayarlana bilir zýplama çarpanýný kontrol edilebilmesi için true yap
         }
     }
 
@@ -267,7 +267,7 @@ public class PlayerMovement : MonoBehaviour
             rb.AddForce(forceToAdd, ForceMode2D.Impulse); // o gücü rigidbody ye uyguluyo patlama þeklinde gücün nasýl uygulanýcaðýný deðiþtire biliyosun
             jumpTimer = 0; // zaten
             isAttemptingToJump = false; // Artýk zýplamaz diðer duvara inene kadar diyon
-            checkJumpMultiplier = true; // burda zýpladýðý için ayarlanabilir çarpaný açýyousun
+            //checkJumpMultiplier = true; // burda zýpladýðý için ayarlanabilir çarpaný açýyousun
             turnTimer = 0; // zaten
             canMove = true; // duvarda karakterin hareketlerini kitlediðimiz için onlarý açýyosun
             canFlip = true;
