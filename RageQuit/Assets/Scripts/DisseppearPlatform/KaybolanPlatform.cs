@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class KaybolanPlatform : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class KaybolanPlatform : MonoBehaviour
     public float repairTime = 2f;
     private bool isDisappearing = false; // Platformun kaybolma durumu
     private float timer = 0f; // Zamanlayýcý
+    public AudioSource clip;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -46,6 +48,7 @@ public class KaybolanPlatform : MonoBehaviour
         {
             isDisappearing = true; // Platformu kaybolma durumuna getir
             timer = 0f; // Zamanlayýcýyý sýfýrla
+            clip.Play();
         }
     }
 }

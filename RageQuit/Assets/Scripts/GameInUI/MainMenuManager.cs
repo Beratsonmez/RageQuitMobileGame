@@ -2,10 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement; //Ekleme
+using UnityEngine.Audio;//Ekleme
 
 public class MainMenuManager : MonoBehaviour
 {
     public GameObject panel; //settings paneli için.
+
+    public AudioSource clip;//Ses için
 
     void Start()
     {
@@ -16,6 +19,11 @@ public class MainMenuManager : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void ButtonSound()
+    {
+        clip.Play();
     }
 
     public void Settings()
