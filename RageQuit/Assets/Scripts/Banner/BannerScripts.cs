@@ -6,7 +6,7 @@ using GoogleMobileAds.Api;
 public class BannerScripts : MonoBehaviour
 {
     private BannerView bannerView;
-    private string bannerId = "	ca-app-pub-3940256099942544/6300978111";
+    private string bannerId = "ca-app-pub-2209097412803177/4407769166";
 
     public static BannerScripts Instance;
 
