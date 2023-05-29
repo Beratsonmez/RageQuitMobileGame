@@ -51,4 +51,5 @@ public class BannerScripts : MonoBehaviour
         yield return new WaitForSeconds(4);
         HideBanner();
     }
+    
 }

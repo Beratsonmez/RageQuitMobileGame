@@ -2832,9 +2832,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9109657297970672184, guid: 31b34d4abf370cb44b9f72dbc50e84f4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9109657297970672185, guid: 31b34d4abf370cb44b9f72dbc50e84f4, type: 3}
       propertyPath: m_Name
       value: Banner
+      objectReference: {fileID: 0}
+    - target: {fileID: 9109657297970672185, guid: 31b34d4abf370cb44b9f72dbc50e84f4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31b34d4abf370cb44b9f72dbc50e84f4, type: 3}
