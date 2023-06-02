@@ -13,7 +13,7 @@ prove to themselves that they could improve their skills beyond their previous l
 
 ## Screenshots
 
-![Uygulama Ekran Görüntüsü]([https://via.placeholder.com/468x300?text=App+Screenshot+Here](https://raw.githubusercontent.com/Beratsonmez/RageQuitImages/main/image.png?token=GHSAT0AAAAAACDK3ATDXUFW3HERZZYEUVSEZD2C2JA))
+![Uygulama Ekran Görüntüsü](https://raw.githubusercontent.com/Beratsonmez/RageQuitImages/main/image.png?token=GHSAT0AAAAAACDK3ATDXUFW3HERZZYEUVSEZD2C2JA)
 
 ![Uygulama Ekran Görüntüsü](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
