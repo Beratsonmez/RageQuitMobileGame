@@ -11,13 +11,6 @@ prove to themselves that they could improve their skills beyond their previous l
 
 
 
-## Screenshots
-
-![Uygulama Ekran Görüntüsü](https://raw.githubusercontent.com/Beratsonmez/RageQuitImages/main/image.png?token=GHSAT0AAAAAACDK3ATDXUFW3HERZZYEUVSEZD2C2JA)
-
-![Uygulama Ekran Görüntüsü](https://raw.githubusercontent.com/Beratsonmez/RageQuitImages/main/image2.png?token=GHSAT0AAAAAACDK3ATDDECK6BP7ITDFCMTYZD2C3NQ)
-
-  
 ## Techs
 
 **Game Engine:** Unity
